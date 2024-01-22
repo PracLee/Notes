@@ -1,4 +1,6 @@
 # Table of contents
 
 * [Git Book Test](README.md)
-* [New Page Test](new-page-test.md)
+* [HTTP](http.md)
+* [Word](word.md)
+* [ERROR](error.md)

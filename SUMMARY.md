@@ -31,7 +31,3 @@
 * [Spring Boot](keyword/spring-boot.md)
 * [Spring initializer](keyword/spring-initializer.md)
 * [Web Server && Web Application Server(WAS)](keyword/web-server-and-and-web-application-server-was.md)
-
-## 🗓 Week
-
-* [2024-01-4](week/2024-01-4.md)

@@ -77,8 +77,3 @@ httpServer.start();
 
 ```
 
-
-
-4. Spring Server
-
-* Tomcat 을 이용해&#x20;

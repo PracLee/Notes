@@ -31,3 +31,6 @@
 * [Spring Boot](keyword/spring-boot.md)
 * [Spring initializer](keyword/spring-initializer.md)
 * [Web Server && Web Application Server(WAS)](keyword/web-server-and-and-web-application-server-was.md)
+* [API(Application Programming Interface)](keyword/api-application-programming-interface.md)
+* [Collection Pattern](keyword/collection-pattern.md)
+* [REST (Representational State Transfer)](keyword/rest-representational-state-transfer.md)

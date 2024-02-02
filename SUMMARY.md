@@ -2,13 +2,11 @@
 
 * [HTTP](README.md)
 * [REST (Representational State Transfer)](rest-representational-state-transfer.md)
-* [API](api.md)
 * [Word](word.md)
 * [ERROR](error.md)
 
 ## 🖊 KeyWord
 
-* [Information Hiding, Encapsulation](keyword/information-hiding-encapsulation.md)
 * [Architecture, Architecture Style](keyword/architecture-architecture-style.md)
 * [HTTP](keyword/http.md)
 * [HTTP VS HTTPS](keyword/http-vs-https.md)
@@ -37,4 +35,6 @@
 * [Web Server && Web Application Server(WAS)](keyword/web-server-and-and-web-application-server-was.md)
 * [API(Application Programming Interface)](keyword/api-application-programming-interface.md)
 * [Collection Pattern](keyword/collection-pattern.md)
+* [API](keyword/api.md)
 * [Back-end VS Front-end](keyword/back-end-vs-front-end.md)
+* [Information Hiding, Encapsulation](keyword/information-hiding-encapsulation.md)

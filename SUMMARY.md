@@ -8,6 +8,8 @@
 
 ## 🖊 KeyWord
 
+* [Information Hiding, Encapsulation](keyword/information-hiding-encapsulation.md)
+* [Architecture, Architecture Style](keyword/architecture-architecture-style.md)
 * [HTTP](keyword/http.md)
 * [HTTP VS HTTPS](keyword/http-vs-https.md)
 * [Client - Server Model](keyword/client-server-model.md)

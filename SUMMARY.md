@@ -38,3 +38,4 @@
 * [API](keyword/api.md)
 * [Back-end VS Front-end](keyword/back-end-vs-front-end.md)
 * [Information Hiding, Encapsulation](keyword/information-hiding-encapsulation.md)
+* [Seperation of Concern](keyword/seperation-of-concern.md)

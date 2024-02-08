@@ -40,3 +40,5 @@
 * [Information Hiding, Encapsulation](keyword/information-hiding-encapsulation.md)
 * [Seperation of Concern](keyword/seperation-of-concern.md)
 * [Spring Bean Lifecycle](keyword/spring-bean-lifecycle.md)
+* [Data Transfer Object(DTO)](keyword/data-transfer-object-dto.md)
+* [Inter Process Communication (IPC)](keyword/inter-process-communication-ipc.md)

@@ -45,3 +45,4 @@
 * [Inter Process Communication (IPC)](keyword/inter-process-communication-ipc.md)
 * [Anemic Domain Model](keyword/anemic-domain-model.md)
 * [JavaBeans](keyword/javabeans.md)
+* [Domain Driven Design(DDD)](keyword/domain-driven-design-ddd.md)

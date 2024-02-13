@@ -85,3 +85,12 @@
 
 
 
+* Jackson ObjectMapper
+  * DTO를 JSON으로 변환하거나, JSON을 DTO로 변환
+  * JSON의 스키마를 작성한다는 느낌으로
+  * 필드보다 getter 메소드 이름을 따른다는 점에 주의
+  * 이름을 강제하고 싶으면 @JsonProperty&#x20;
+  * Spring DI를 통해 컨트롤러에서 Jackson ObjectMapper를 얻음
+  * 스프링이 등록된 객체(Bean)을 관리하고 생성자에 명시하면 받아서 사용가능
+  * 사용 = 의존성/의존관계를 주입 받음
+

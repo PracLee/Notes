@@ -97,24 +97,16 @@
 
 
 * Same-Origin Policy
+  * B/E와 F/E가 다른 서버에 있을 때 보안정책을 적용하는 매커니즘
   * 웹 브라우저가 처리하는 보안정책
   * 서버에서는 이미 처리 끝내고 결과를 준 상태에서 얻으려는 리소스의 출처(호스트)가 현재 페이지와 다르면 접근할 수 없게하는 보안 정책
   * 출처에는 포트까지 포함됨
-
-
-
 * JSONP
   * script 태그는 동일 출처를 따지지 않는다는 점을 이용, 서버에서 JSON을 직접 전달하는게 아니라, 실행되는 자바스크립트 코드를 전달하는 방식
-
-
-
 * CORS (Cross-Origin Resource Sharing)
   * REST API의 응답 헤더에 "Access-Control-Allow-Origin"속성을 포함
   * 서버측에서 브라우저에 F/E에서 요청한 거라면 괜찮다고 알려주는 방식
   * 요청 헤더의 Origin 속성을 참고
-
-
-
 * Spring Web MVC에서 CORS
   * ```
     response.setHeader("Access-Control-Allow-Origin", "*");

@@ -94,3 +94,49 @@
   * 스프링이 등록된 객체(Bean)을 관리하고 생성자에 명시하면 받아서 사용가능
   * 사용 = 의존성/의존관계를 주입 받음
 
+
+
+* Same-Origin Policy
+  * 웹 브라우저가 처리하는 보안정책
+  * 서버에서는 이미 처리 끝내고 결과를 준 상태에서 얻으려는 리소스의 출처(호스트)가 현재 페이지와 다르면 접근할 수 없게하는 보안 정책
+  * 출처에는 포트까지 포함됨
+
+
+
+* JSONP
+  * script 태그는 동일 출처를 따지지 않는다는 점을 이용, 서버에서 JSON을 직접 전달하는게 아니라, 실행되는 자바스크립트 코드를 전달하는 방식
+
+
+
+* CORS (Cross-Origin Resource Sharing)
+  * REST API의 응답 헤더에 "Access-Control-Allow-Origin"속성을 포함
+  * 서버측에서 브라우저에 F/E에서 요청한 거라면 괜찮다고 알려주는 방식
+  * 요청 헤더의 Origin 속성을 참고
+
+
+
+* Spring Web MVC에서 CORS
+  * ```
+    response.setHeader("Access-Control-Allow-Origin", "*");
+    ```
+  * @CrossOrigin 애너테이션 사용
+  *   WebMvcConfigurer
+
+      WebMvcConfigurer 인터페이스에 대한 Spring Bean으로 환경 설정
+
+      ```java
+      @Bean
+      public WebMvcConfigurer webMvcConfigurer() {
+      		return new WebMvcConfigurer() {
+      		
+      		@Override
+      		public void addCorsMappings(CorsRegistry registry) {
+      			registry.addMapping("/**")
+      			.allowedMethods("GET", "POST", "PATCH", "DELETE", "OPTIONS")
+      			.allowedOrigins("<http://localhost:3000>");
+      		}
+      	};
+      }
+      ```
+
+      마찬가지로 “\*”을 쓰거나 allowedOrigins 메서드를 따로 써주지 않으면 모든 요청을 허용

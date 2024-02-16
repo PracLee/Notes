@@ -1,4 +1,6 @@
-# REST (Representational State Transfer)
+# 2. REST (Representational State Transfer)
+
+
 
 * Roy Fielding - “[Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/\~fielding/pubs/dissertation/top.htm)” (2000) 에서 제안한 기기간의 통신 모델
 

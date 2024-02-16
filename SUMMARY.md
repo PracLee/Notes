@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Lecture](README.md)
-  * [1. HTTP](lecture/1.-http.md)
-  * [2. REST (Representational State Transfer)](lecture/2.-rest-representational-state-transfer.md)
-  * [3. DTO, JSON, CORS](lecture/3.-dto-json-cors.md)
+  * [1. HTTP](<README (1).md>)
+  * [2. REST (Representational State Transfer)](rest-representational-state-transfer.md)
+  * [3. DTO, JSON, CORS](dto-json-cors.md)
 * [ERROR](error.md)
 * [Java Function](java-function/README.md)
   * [stream()](java-function/stream.md)

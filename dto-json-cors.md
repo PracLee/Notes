@@ -1,4 +1,4 @@
-# DTO, JSON, CORS
+# 3. DTO, JSON, CORS
 
 *   F/E는 사용자의 입력을 받아 B/E에 요청하고, B/E는 요청을 처리해 응답
 

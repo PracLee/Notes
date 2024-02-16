@@ -3,7 +3,6 @@
 * [HTTP](README.md)
 * [REST (Representational State Transfer)](rest-representational-state-transfer.md)
 * [DTO, JSON, CORS](dto-json-cors.md)
-* [Word](word.md)
 * [ERROR](error.md)
 * [Java Function](java-function/README.md)
   * [stream()](java-function/stream.md)

@@ -4,6 +4,7 @@
   * [1. HTTP](<README (1).md>)
   * [2. REST (Representational State Transfer)](rest-representational-state-transfer.md)
   * [3. DTO, JSON, CORS](dto-json-cors.md)
+  * [4. Layered Architecture](lecture/4.-layered-architecture.md)
 * [ERROR](error.md)
 * [Java Function](java-function/README.md)
   * [stream()](java-function/stream.md)

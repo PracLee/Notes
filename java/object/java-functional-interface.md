@@ -5,6 +5,3 @@
 * @FunctionalInterface 어노테이션을 사용 -> 컴파일러에서 규칙을 지키는지를 체크
 * Object 클래스의 메서드를 제외
 
-
-
-Lambda 에 호출되는 인터페이스..?

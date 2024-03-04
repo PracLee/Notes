@@ -6,6 +6,7 @@
   * [3. DTO, JSON, CORS](dto-json-cors.md)
   * [4. Layered Architecture](lecture/4.-layered-architecture.md)
   * [5. DI & Spring Test](lecture/5.-di-and-spring-test.md)
+  * [6. Database](lecture/6.-database.md)
 * [ERROR](error.md)
 * [Java](java/README.md)
   * [function](java/function/README.md)

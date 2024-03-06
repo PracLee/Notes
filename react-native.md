@@ -55,6 +55,38 @@
     *   react Native CLI 설치
 
         npm install -g react-native-cli
+    *   프로젝트 실행
+
+        npx react-native run-android
 
 
+
+*   React
+
+    * JSX : JavaScript XML을 의미
+    * JavaScript언어의 확장 문법
+    * 최상위 요소(View)가 반드시 있어야 함
+    * {}로 자바 표현을 사용할 수 있음
+    * 태그는 반드시 닫아야 함
+    *
+
+        ```javascript
+        // 태그 안에 스타일은 아래와 같이 선언
+        style={{backgroundColor:'blue'}}
+        /* 주석은 이렇게 선언 */
+        ```
+
+
+
+    * React의 화면은 컴포넌트의 조합으로 구성됨 -> 화면 == 컴포넌트들의 조립
+    * 컴포넌트는 함수형, 클래스 형으로 정의 가능
+    * 정의된 컴포넌트를 Import 해서 사용가능
+    * 생명주기
+      * 마운팅 : 생성
+      * 갱신 : 갱신
+      * 언마운팅 : 제거
+    * <mark style="color:red;">React Hook 알아봐야 함</mark>
+    *   componentDidMount : 컴포넌트가 로딩된 후 실행
+
+        \-> Ajax로 수신한 데이터를 처리하는 코드를 넣어두기 적절한 메소드
 

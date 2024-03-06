@@ -33,3 +33,28 @@
 
 
 
+* 개발자가 알아야 할 것들
+  * JavaScript & TypeScript
+  * ES6
+  * React
+  * React Native
+  * Emulator
+  * Editor || IDE
+
+
+
+* React Native App
+  * 프로젝트를 생성하여 개발
+  * React Native 프로젝트를 생성하려면 React Native CLI || Expo CLI 사용
+  * React Native CLI : 좀 더 Native에 가까워서 Android Emulator 에서 실행가능
+  * Expo CLI : 가볍긴 하지만 Emulator 사용 불가능
+  * React Native CLI 설치
+    *   기존 CLI 제거
+
+        npm uninstall -g react-native-cli @react-navive-communoty/cli
+    *   react Native CLI 설치
+
+        npm install -g react-native-cli
+
+
+

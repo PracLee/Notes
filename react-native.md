@@ -61,12 +61,14 @@
 
 
 
-*   React
+*   React&#x20;
 
     * JSX : JavaScript XML을 의미
     * JavaScript언어의 확장 문법
     * 최상위 요소(View)가 반드시 있어야 함
-    * {}로 자바 표현을 사용할 수 있음
+    *   {}로 자바 표현을 사용할 수 있음
+
+        \-> {/\* 주석 표현 \*/}
     * 태그는 반드시 닫아야 함
     *
 
@@ -82,11 +84,37 @@
     * 컴포넌트는 함수형, 클래스 형으로 정의 가능
     * 정의된 컴포넌트를 Import 해서 사용가능
     * 생명주기
-      * 마운팅 : 생성
+      * 마운팅 : 생성자, render, componentDidMount 실행
       * 갱신 : 갱신
-      * 언마운팅 : 제거
+      * 언마운팅 : 제거, componentWillUnmount 실행
     * <mark style="color:red;">React Hook 알아봐야 함</mark>
     *   componentDidMount : 컴포넌트가 로딩된 후 실행
 
         \-> Ajax로 수신한 데이터를 처리하는 코드를 넣어두기 적절한 메소드
+    * props == Properties : 상위 컴포넌트로부터 전달된 데이터나 상속받은 값을 참조할때 사용
+    *        state : 데이터를 다루는 방식중 하나, 단순 구조의 자바스크립트의 객체
 
+        \-> Hook 방식의 useState를 사용하여 상태를 관리
+
+
+
+* React Native Component
+  * 기본 컴포넌트
+    * View
+    * Text
+    * Image
+    * TextInput
+    * ScrollView
+    * StyleSheet
+  * User Interface
+    * Button
+    * Swith
+  * List Views
+    * FlatList
+    * SectionList
+
+
+
+* React Native Style
+  * Javascript 객체로 컴포넌트 스타일 지정
+  * Inline으로도 적용은 가능하나, 재사용측면에서 추천하지 않음

@@ -1,6 +1,7 @@
 # React Native
 
-* React <> React Native 이지만, React도 해야함..
+반드시 ㅂReact <> React Native 이지만, React도 해야함..
+
 * React 자체는 Vue.js || Angular 와 같은 언어...?
 
 
@@ -118,3 +119,7 @@
 * React Native Style
   * Javascript 객체로 컴포넌트 스타일 지정
   * Inline으로도 적용은 가능하나, 재사용측면에서 추천하지 않음
+
+
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>반드시 맞출 것!!!! 2시간 반 버림..</p></figcaption></figure>

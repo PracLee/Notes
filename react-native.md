@@ -88,7 +88,6 @@
       * 마운팅 : 생성자, render, componentDidMount 실행
       * 갱신 : 갱신
       * 언마운팅 : 제거, componentWillUnmount 실행
-    * <mark style="color:red;">React Hook 알아봐야 함</mark>
     *   componentDidMount : 컴포넌트가 로딩된 후 실행
 
         \-> Ajax로 수신한 데이터를 처리하는 코드를 넣어두기 적절한 메소드
@@ -96,6 +95,13 @@
     *        state : 데이터를 다루는 방식중 하나, 단순 구조의 자바스크립트의 객체
 
         \-> Hook 방식의 useState를 사용하여 상태를 관리
+
+
+
+* React Hook
+  * 렌더링 하기전에 정보를 모아두는 것
+  * Android Native의 옵져버, 구독 패턴이라고 보는게 맞는듯 함
+  * 특정 이벤트 시기에 어떤 객체나 변수를 어떻게 조절할 것인지 구조화&#x20;
 
 
 

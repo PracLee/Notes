@@ -1,14 +1,12 @@
 # React Native
 
-1. 개요
-   * facebook에서 개발한 오픈 소스 프레임 워크
-   * 모바일 앱을 개발할때 사용
-   * 하나의 소스코드로 Android와 iOS App을 생성할수 있는 Cross Platform 개발기술
-   * JavaScript로 코딩하며, React library를 사용
-2.   필요성
-3. 특징
-4. 사용방법
-5. 래퍼런스 모음
+* 개요
+  * facebook에서 개발한 오픈 소스 프레임 워크
+  * 모바일 앱을 개발할때 사용
+  * 하나의 소스코드로 Android와 iOS App을 생성할수 있는 Cross Platform 개발기술
+  * JavaScript로 코딩하며, React library를 사용
+
+
 
 
 
@@ -132,7 +130,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>반드시 맞출 것!!!! 2시간 반 버림..</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>반드시 맞출 것!!!! 2시간 반 버림..</p></figcaption></figure>
 
 
 

@@ -1,6 +1,6 @@
 # React Native
 
-반드시 ㅂReact <> React Native 이지만, React도 해야함..
+반드시 React <> React Native 이지만, React도 해야함..
 
 * React 자체는 Vue.js || Angular 와 같은 언어...?
 
@@ -129,3 +129,62 @@
 
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>반드시 맞출 것!!!! 2시간 반 버림..</p></figcaption></figure>
+
+
+
+*   Navigation
+
+    * 모바일 앱에서는 주로 세가지 형태의 Navigation을 다룸
+      * 탭 형식의 Navigation : 위나 아래에 탭이 있고 누르면 해당 탭으로 이동
+      * 스택 기반의 Navigation : 화면들이 스택으로 쌓여 있다가 출력
+      * Drawer 형태의 Navigation : 왼쪽이나 오른쪽에서 나타나는 사이드 메뉴
+    * React Navive에서는 컴포넌트 기반이로 Navigation이 이루어짐
+    * 모듈은 포함되어 있지 않기에 Third Party Library를 이용
+
+
+
+```bash
+# navigation
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+
+# stack navigation
+npm install @react-navigation/native-stack
+```
+
+
+
+* Context
+  * 여러 화면에서 공유해야되는 데이터들
+  * Web에서의 Session 개념이라고 보면 될듯함..
+
+
+
+* Redux
+  * JavaScript App에서 사용하는 예측 가능한 상태 컨테이너
+  * 컴포넌트 사이에서 데이터를 공유하는 작업
+  * 사용하기 복잡하고 App이 복잡해지긴함
+  * 컴포넌트에서 액션을 호출, 액션은 리듀서를 거쳐서 스토어에 저장된 값을 업데이트, 값이 업데이트 되면 컴포넌트에서 렌더링이 다시 수행
+
+```bash
+npm install redux react-redux @reduxjs/toolkit
+```
+
+* Reducer
+  * App의 현재 상태를 취하고 액션을 수행하며 새로운 State를 리턴하는 함수
+* Store
+  * App의 State를 유지
+  * App 전체에서는 하나의 State만이 존재
+  * 헬퍼 메서드를 통해 저장된 State를 참조, 수정, 리스너 등록, 리스너 해체 가능
+* Action
+  * type 속성을 가지고 Redux의 dispatch 함수로 Action으로 호출하면 앱의 모든 리덕션에 호출
+
+
+
+* Server 연동
+  * Fetch API, XMLHttpRequest API 사용
+  * fetch함수를 호출하여 매개변수로 URL을 전달
+  *   fetch함수는 Promise를 리턴
+
+      \-> Default: 비동기, async & await 동기로 사용
+

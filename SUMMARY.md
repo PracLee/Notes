@@ -7,6 +7,7 @@
   * [4. Layered Architecture](lecture/4.-layered-architecture.md)
   * [5. DI & Spring Test](lecture/5.-di-and-spring-test.md)
   * [6. Database](lecture/6.-database.md)
+  * [7. JPA](lecture/7.-jpa.md)
 * [ERROR](error.md)
 * [Java](java/README.md)
   * [function](java/function/README.md)

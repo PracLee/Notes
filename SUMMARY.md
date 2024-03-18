@@ -8,6 +8,7 @@
   * [5. DI & Spring Test](lecture/5.-di-and-spring-test.md)
   * [6. Database](lecture/6.-database.md)
   * [7. JPA](lecture/7.-jpa.md)
+  * [8. 도메인 주도 설계](lecture/8..md)
 * [ERROR](error.md)
 * [Java](java/README.md)
   * [function](java/function/README.md)

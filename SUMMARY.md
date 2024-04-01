@@ -10,6 +10,7 @@
   * [7. JPA](lecture/7.-jpa.md)
   * [8. 도메인 주도 설계](lecture/8..md)
   * [9. Hexagonal Architecture](lecture/9.-hexagonal-architecture.md)
+  * [10. Spring Security](lecture/10.-spring-security.md)
 * [ERROR](error.md)
 * [Java](java/README.md)
   * [function](java/function/README.md)

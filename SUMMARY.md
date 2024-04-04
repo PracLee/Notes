@@ -24,6 +24,7 @@
     * [JavaBeans](java/object/javabeans.md)
     * [Java HTTP Server](java/object/java-http-server.md)
     * [Java Lambda Expression](java/object/java-lambda-expression.md)
+    * [record](java/object/record.md)
   * [Java Text Block](java/java-text-block.md)
   * [Java try-with-resources](java/java-try-with-resources.md)
 * [Spring](spring/README.md)

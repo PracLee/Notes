@@ -12,6 +12,7 @@
   * [9. Hexagonal Architecture](lecture/9.-hexagonal-architecture.md)
   * [10. Spring Security](lecture/10.-spring-security.md)
   * [11. File Upload](lecture/11.-file-upload.md)
+  * [12. CQRS](lecture/12.-cqrs.md)
 * [ERROR](error.md)
 * [Java](java/README.md)
   * [function](java/function/README.md)

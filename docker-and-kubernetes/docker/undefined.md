@@ -35,8 +35,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 * 설치 확인
 
-```
-// Some code
+```bash
+docker --version
+# 또는
+docker info | head
 ```
 
 

@@ -10,4 +10,6 @@
 * 상업적으로 지원되는 registry : Docker Tusted Registry
 * vs Docker Hub
   * GUI 기반 인터페이스
-  *
+  * 클라우드에 public 또는 private 이미지를 처리 할 수 있는 위치가 설정되어 있어야 함
+  * 유지보수가 필요없는 즉시 사용 가능한 솔루션을 찾고 있는 사용자에게 무료 사용 가능한 호스팅 된 registry와 추가 기능을 제공
+

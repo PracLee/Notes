@@ -5,6 +5,7 @@
     * [1. Variable](lecture/kotlin/1.-variable.md)
     * [2. null](lecture/kotlin/2.-null.md)
     * [3. Type](lecture/kotlin/3.-type.md)
+    * [4. 연산자](lecture/kotlin/4..md)
   * [Backend Survival](lecture/backend-survival/README.md)
     * [1. HTTP](lecture/backend-survival/1.-http.md)
     * [2. REST (Representational State Transfer)](lecture/backend-survival/2.-rest-representational-state-transfer.md)

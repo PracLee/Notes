@@ -9,6 +9,8 @@
     * [5. 조건문](lecture/kotlin/5..md)
     * [6. 반복문](lecture/kotlin/6..md)
     * [7. 예외처리](lecture/kotlin/7..md)
+    * [8. function](lecture/kotlin/8.-function.md)
+    * [9. Class](lecture/kotlin/9.-class.md)
   * [Backend Survival](lecture/backend-survival/README.md)
     * [1. HTTP](lecture/backend-survival/1.-http.md)
     * [2. REST (Representational State Transfer)](lecture/backend-survival/2.-rest-representational-state-transfer.md)

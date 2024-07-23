@@ -12,6 +12,7 @@
     * [8. function](lecture/kotlin/8.-function.md)
     * [9. Class](lecture/kotlin/9.-class.md)
     * [10. 상속](lecture/kotlin/10..md)
+    * [11. 접근제어](lecture/kotlin/11..md)
   * [Backend Survival](lecture/backend-survival/README.md)
     * [1. HTTP](lecture/backend-survival/1.-http.md)
     * [2. REST (Representational State Transfer)](lecture/backend-survival/2.-rest-representational-state-transfer.md)

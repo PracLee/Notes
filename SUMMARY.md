@@ -41,6 +41,7 @@
       * [MainAxisAlignment](lecture/flutter/row-and-column/mainaxisalignment.md)
       * [CrossAxisAlignment](lecture/flutter/row-and-column/crossaxisalignment.md)
       * [SafeArea](lecture/flutter/row-and-column/safearea.md)
+      * [Expended](lecture/flutter/row-and-column/expended.md)
 * [ERROR](error.md)
 * [Java](java/README.md)
   * [function](java/function/README.md)

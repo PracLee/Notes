@@ -12,7 +12,7 @@ description: CrossAxisAlignment 의 Options
   * (00000000)
   * (00000000)
   * (111000000)
-* CrossAxisAlignment.center : 반대축의 중앙에 정렬
+* CrossAxisAlignment.center : 반대축의 중앙에 정렬 (default)
   * (00000000)
   * (111000000)
   * (00000000)

@@ -18,7 +18,7 @@ description: Java 8
 * return값 : Stream 객체
   * 중간 연산(intermediate operations)과 최종 연산(terminal operations)을 제공&#x20;
   * 중간 연산을 여러 번 연결하여 사용할 수 있음
-  * 최종 연산을 호출하기 전까지는 실제로 데이터를 처리하지 않고 지연 평가를 수행
+  * 최종 연산을 호출하기 전까지는 실제로 데이터를 처리하지 않고 지연 평가를 수행(점유 X)
   * 최종 연산이 호출되면 Stream은 닫히고 데이터 처리가 시작
   * 중간 연산(intermediate operations)
     * map : 각 요소에 주어진 함수를 적용하여 새로운 값을 생성

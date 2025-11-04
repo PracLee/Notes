@@ -110,4 +110,6 @@
   * [Git Keyword](keyword/git-keyword.md)
 * [MarkDown](markdown.md)
 * [Python](python/README.md)
+  * [enumerate()](python/enumerate.md)
+  * [zip()](python/zip.md)
   * [환경설정](python/undefined.md)

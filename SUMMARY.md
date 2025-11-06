@@ -114,4 +114,5 @@
     * [zip()](python/python-builtins/zip.md)
     * [enumerate()](python/python-builtins/enumerate.md)
     * [Packing/Unpacking](python/python-builtins/packing-unpacking.md)
+    * [join()](python/python-builtins/join.md)
   * [환경설정](python/undefined.md)

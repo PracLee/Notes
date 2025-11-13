@@ -111,6 +111,7 @@
 * [MarkDown](markdown.md)
 * [Python](python/README.md)
   * [Python function..](python/python-function../README.md)
+    * [Comprehension](python/python-function../comprehension.md)
     * [zip()](python/python-function../zip.md)
     * [enumerate()](python/python-function../enumerate.md)
     * [Packing/Unpacking](python/python-function../packing-unpacking.md)

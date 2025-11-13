@@ -27,3 +27,39 @@ conda activate pystudy_env
 pip install jupyter
 ```
 
+
+
+## dotenv
+
+```
+pip install python-dotenv
+```
+
+
+
+## request
+
+```
+pip install request
+```
+
+
+
+## mysql connector
+
+```
+pip install mysql-connector-python
+```
+
+
+
+## Static scraping - beautifulsoup4
+
+```python
+pip install beautifulsoup4
+```
+
+
+
+
+

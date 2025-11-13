@@ -61,5 +61,9 @@ pip install beautifulsoup4
 
 
 
+## Dynamic scraping - selenium
 
+```
+pip install selenium
+```
 

@@ -67,3 +67,8 @@ pip install beautifulsoup4
 pip install selenium
 ```
 
+## Data Analysis
+
+```
+pip install jupyter numpy pandas matplotlib 
+```

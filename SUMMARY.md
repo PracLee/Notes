@@ -122,3 +122,6 @@
   * [Python Object](python/python-object/README.md)
     * [Math](python/python-object/math/README.md)
       * [isqrt(int)](python/python-object/math/isqrt-int.md)
+* [AI](ai/README.md)
+  * [데이터분석 패키지](ai/undefined.md)
+  * [Untitled](ai/untitled.md)

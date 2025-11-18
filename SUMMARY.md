@@ -119,3 +119,6 @@
     * [reduce()](python/python-function../reduce.md)
     * [lambda](python/python-function../lambda.md)
   * [환경설정](python/undefined.md)
+  * [Python Object](python/python-object/README.md)
+    * [Math](python/python-object/math/README.md)
+      * [isqrt(int)](python/python-object/math/isqrt-int.md)

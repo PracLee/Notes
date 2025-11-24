@@ -125,3 +125,5 @@
 * [AI](ai/README.md)
   * [데이터분석 패키지](ai/undefined.md)
   * [Untitled](ai/untitled.md)
+* [Algorithm](algorithm/README.md)
+  * [Geedy](algorithm/geedy.md)

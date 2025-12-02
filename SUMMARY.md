@@ -126,5 +126,6 @@
   * [데이터분석 패키지](ai/undefined.md)
   * [Untitled](ai/untitled.md)
 * [Algorithm](algorithm/README.md)
-  * [Greedy](algorithm/geedy.md)
+  * [Greedy](algorithm/greedy.md)
   * [remain](algorithm/remain.md)
+  * [Sort](algorithm/sort.md)

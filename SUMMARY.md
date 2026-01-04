@@ -123,6 +123,7 @@
     * [Math](python/python-object/math/README.md)
       * [isqrt(int)](python/python-object/math/isqrt-int.md)
 * [AI](ai/README.md)
+  * [Attention Mechanism](ai/attention-mechanism.md)
   * [데이터분석 패키지](ai/undefined.md)
   * [Pakage](ai/untitled/README.md)
     * [Tensorflow](ai/untitled/tensorflow.md)

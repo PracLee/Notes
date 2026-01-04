@@ -127,6 +127,5 @@
   * [Untitled](ai/untitled.md)
 * [Algorithm](algorithm/README.md)
   * [Binary Search](algorithm/binary-search.md)
-  * [Greedy](algorithm/greedy.md)
   * [remain](algorithm/remain.md)
   * [Sort](algorithm/sort.md)

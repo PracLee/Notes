@@ -124,7 +124,7 @@
       * [isqrt(int)](python/python-object/math/isqrt-int.md)
 * [AI](ai/README.md)
   * [NLP](ai/nlp/README.md)
-    * [Attention Mechanism](ai/nlp/attention-mechanism.md)
+    * [Attention Mechanism](ai/attention-mechanism.md)
     * [Transformer](ai/nlp/transformer.md)
   * [Pakage](ai/untitled/README.md)
     * [Tensorflow](ai/untitled/tensorflow.md)

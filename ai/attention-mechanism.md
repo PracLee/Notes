@@ -125,6 +125,6 @@ output, weights = scaled_dot_product_attention(Q, K, V)
 print(f"3. 최종 결과 벡터 (Context Vector):\n{output}")
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * 행렬 곱셈(유사도 측정) :arrow\_forward: Softmax(확률화) :arrow\_forward: 행렬 곱셈(정보 합성) 과정

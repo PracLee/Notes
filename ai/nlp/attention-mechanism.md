@@ -45,12 +45,27 @@ description: 모델이 출력 값을 예측할 때, 입력 데이터의 중요�
 
 ## 5. Seq2Seq의 한계 극복
 
-*   가장 큰 문제점: RNN이나 LSTM은 같은 기억을 하나의 hidden state로 계속 압축해 나가므로 **정보 병목(bottleneck)** 발생
+*   #### 핵심 문제: “정보를 하나로 압축해야 하는 병목(Bottleneck)”
 
-    :arrow\_forward: torch 객체를 새로 만듦으로써 확실한 저장소를 구현
+    * 기존 RNN/LSTM 기반 Seq2Seq는 보통 **인코더의 마지막 hidden state(또는 요약 벡터)**&#xB97C; 디코더에 전달하는 구조
+      * 긴 문장일수록 앞부분 정보가 요약 과정에서 쉽게 희석/손실
+      * 디코더가 각 시점에서 필요한 정보를 얻기 위해, 고정 길이 벡터 하나에 의존해야 하는 구조적 한계
+    *   여기에 더해 RNN 계열은 시퀀스가 길어질수록 장기 의존성 학습이 어려워질 수 있음(기울기 소실/폭주 이슈).
 
-    * 기존에 역전파를 하여 loop를 돌아하야는 수고가 없이 바로 인덱스로 접근 가능
-    * 마찬가지로 압축하지 않고 다 가지고 있다가, 필요할 때마다 꺼내 봄
+        LSTM/GRU가 완화하긴 하지만, 완전 해결은 아님
+
+    <br>
+
+    #### Attention이 제공하는 해결: “전체 인코더 출력(메모리)을 유지하고, 필요할 때마다 읽어오기”
+
+    * Attention은 인코더가 만든 hidden state들을 시퀀스 전체로 저장
+      * 예: H = \[h1, h2, ..., hT] (각 입력 단어에 대응하는 표현)
+    * 디코더는 출력 단어를 하나 생성할 때마다,
+      * 현재 디코더 상태(= Query)에 기반해 인코더의 모든 hidden state(= Key/Value)를 다시 보고, 관련이 큰 위치에 더 큰 가중치를 주어 **가중합(Context Vector)** 생성
+    * 결과적으로,
+      * “문장을 하나의 벡터로 압축”하는 부담이 감소
+      * 디코더가 매 시점마다 필요한 입력 정보를 직접 참조
+      * 긴 문장에서 번역/생성 품질이 개선
 
 ## 6. 코드 구현
 
@@ -110,6 +125,6 @@ output, weights = scaled_dot_product_attention(Q, K, V)
 print(f"3. 최종 결과 벡터 (Context Vector):\n{output}")
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * 행렬 곱셈(유사도 측정) :arrow\_forward: Softmax(확률화) :arrow\_forward: 행렬 곱셈(정보 합성) 과정

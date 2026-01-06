@@ -14,7 +14,7 @@
     * [10. 상속](lecture/kotlin/10..md)
     * [11. 접근제어](lecture/kotlin/11..md)
     * [12. Object](lecture/kotlin/12.-object.md)
-  * [Backend Survival](lecture/backend-survival/README.md)
+  * [Backend](lecture/backend-survival/README.md)
     * [1. HTTP](lecture/backend-survival/1.-http.md)
     * [2. REST (Representational State Transfer)](lecture/backend-survival/2.-rest-representational-state-transfer.md)
     * [3. DTO, JSON, CORS](lecture/backend-survival/3.-dto-json-cors.md)

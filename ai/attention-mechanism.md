@@ -45,8 +45,7 @@ description: 모델이 출력 값을 예측할 때, 입력 데이터의 중요�
 
 ## 5. Seq2Seq의 한계 극복
 
-* **모든 가중치를 가진 torch가 하나 더 있고, 쉽게 접근 할 수 있게 됨**
-*   가장 큰 문제점: RNN이나 LSTM은 같은 torch 객체를 계속 사용하여, Greedy 하게 Overwrite 하여 이전 상태를 기억을 못함
+*   가장 큰 문제점: RNN이나 LSTM은 같은 기억을 하나의 hidden state로 계속 압축해 나가므로 **정보 병목(bottleneck)** 발생
 
     :arrow\_forward: torch 객체를 새로 만듦으로써 확실한 저장소를 구현
 

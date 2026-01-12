@@ -59,7 +59,7 @@ Transformer의 핵심은 **Attention**, 특히 Encoder에서는 **Self-Attention
 >
 > Decoder의 Self-Attention은 Masked(미래 토큰을 못 보게 막음)
 
-### 3. Feed Forward Network(FFN) + Residual(Add) + LayerNorm(Norm)
+#### 3. Feed Forward Network(FFN) + Residual(Add) + LayerNorm(Norm)
 
 Attention은 "무엇을 참고할지"를 결정해 정보를 섞는 단계
 

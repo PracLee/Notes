@@ -135,6 +135,7 @@
     * [Scikit-learn](ai/untitled/scikit-learn.md)
     * [Gensim](ai/untitled/gensim.md)
 * [Algorithm](algorithm/README.md)
+  * [for-else](algorithm/for-else.md)
   * [Breadth-First Search(BFS)](algorithm/breadth-first-search-bfs.md)
   * [Binary Search](algorithm/binary-search.md)
   * [remain](algorithm/remain.md)

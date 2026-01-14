@@ -126,6 +126,7 @@
   * [CV](ai/cv/README.md)
     * [CNN (Convolutional Neural Network)](ai/cv/cnn-convolutional-neural-network.md)
     * [ViT (Vision Transformer)](ai/cv/vit-vision-transformer.md)
+    * [CNN vs Vit](ai/cv/cnn-vs-vit.md)
   * [NLP](ai/nlp/README.md)
     * [Attention Mechanism](ai/attention-mechanism.md)
     * [Transformer](ai/nlp/transformer.md)
